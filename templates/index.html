@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Downloader</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>YouTube Downloader</h1>
+    <form>
+      <label for="url">Enter YouTube URL:</label>
+      <input type="text" name="url" id="url" required />
+      <br />
+      <br />
+      <button type="button" onclick="download()">Download Video</button>
+      <button type="button" onclick="toggleDarkMode()">
+        <i class="fas fa-moon" id="dark-mode-icon"></i>
+        <span id="dark-mode-text">Toggle Dark Mode</span>
+      </button>
+    </form>
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
